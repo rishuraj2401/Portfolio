@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css'; 
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import Navb from './Navb';
