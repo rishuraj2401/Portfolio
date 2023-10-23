@@ -14,7 +14,8 @@ function Navb() {
 <div className="nav" style={{zIndex:5}}>
 <nav className="navbar navbar-expand-lg navbar-light">
   
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+  style={{backgroundColor:'rgb(3, 14, 30)'}}>
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">

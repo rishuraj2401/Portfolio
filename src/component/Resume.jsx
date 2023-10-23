@@ -45,7 +45,8 @@ const Resume = () => {
            </div>
            <div className="right">
             <div className="pdf-container">
-           <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.min.js"> 
+           {/* <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.min.js">  */}
+           <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
            {viewPdf && <> <Viewer fileUrl={viewPdf} plugins={[newplugin]}/> </>} {!viewPdf && <>No PDF</>} </Worker> I
            </div>
            </div>

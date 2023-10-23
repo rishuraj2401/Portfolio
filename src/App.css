@@ -150,7 +150,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2B4584", en
     height:fit-content;
   }
   .typewriter h1{
-    font-size: 40px;
+    font-size: 36px;
+    padding: 5px;
   }
   .blobbg{
     height: 300px;
@@ -165,7 +166,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2B4584", en
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
  
-  color: black;
+  color: rgb(8, 8, 8);
   background-color: rgb(9, 9, 9);
   /* background: black; */
   padding: 1vw;

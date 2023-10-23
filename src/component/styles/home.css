@@ -100,11 +100,13 @@ transition: 0.7s;
   }
   @media(max-width:768px){
     .ab{
-      overflow-y: scroll;
+      /* overflow-y: scroll; */
       padding:20px;
-    }
-    .ab p1{
       font-size: 12px;
     }
+    /* .ab ul li{
+      font-size: 12px;
+    } */
+   
   }
   

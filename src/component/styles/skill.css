@@ -21,6 +21,7 @@ min-width: 50px;
 .iconimg h5{
     color: aliceblue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
 }
 .iconimg:hover, .iconimg:focus{
     transform: scale(1.1);
