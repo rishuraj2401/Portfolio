@@ -1,0 +1,49 @@
+.rightCon{
+    background: hsla(154, 53%, 82%, 1);
+
+    background: linear-gradient(360deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 50%, hsla(216, 56%, 16%, 1) 100%);
+    
+    background: -moz-linear-gradient(360deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 50%, hsla(216, 56%, 16%, 1) 100%);
+    
+    background: -webkit-linear-gradient(360deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 50%, hsla(216, 56%, 16%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B8E9D4", endColorstr="#F4985A", GradientType=1 );
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 5vw;
+}
+.contt{
+    width: 35vw;
+    background-color: rgba(50, 54, 53, 0.151);
+    padding: 2vw;
+    height: 45vh;
+    border-radius: 7% 20% 44% 51% / 100% 56% 7% 69%;
+    border: 2px solid;
+    min-width: 350px;
+    transition: 0.5s;
+}
+.contt:hover, .contt:focus{
+    transform: scale(1.07);
+    background: linear-gradient(360deg, rgb(16, 19, 18) 0%, rgb(21, 20, 20) 50%, hsla(216, 56%, 16%, 1) 100%);
+    box-shadow: 4px 4px 4px 4px rgba(42, 41, 41, 0.616);
+    /* transform:translateZ(20px); */
+}
+ .lbl{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(253, 251, 251);
+
+}
+.contt form{
+    display:grid;
+    /* grid-template-rows:20% 20% 50% 10%; */
+    justify-content: space-evenly;
+    /* background-color: #fff; */
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+}

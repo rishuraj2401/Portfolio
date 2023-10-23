@@ -1,0 +1,191 @@
+.rightA{
+    background: hsla(154, 53%, 82%, 1);
+
+    background: linear-gradient(360deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 50%, hsla(216, 56%, 16%, 1) 100%);
+    
+    background: -moz-linear-gradient(360deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 50%, hsla(216, 56%, 16%, 1) 100%);
+    
+    background: -webkit-linear-gradient(360deg, hsla(154, 53%, 82%, 1) 0%, hsla(24, 88%, 65%, 1) 50%, hsla(216, 56%, 16%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B8E9D4", endColorstr="#F4985A", GradientType=1 );
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 5vw;
+}
+.aboutcon{
+width:50vw;
+/* background-color: #fff; */
+/* height: 40vh; */
+padding: 8vw;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.leftabt{
+    /* background: linear-gradient( to right ,rgb(196, 162, 162), black ); */
+    background: hsla(86, 8%, 17%, 1);
+  
+    background: linear-gradient(270deg, hsla(86, 8%, 17%, 1) 0%, hsla(0, 0%, 0%, 1) 50%, hsla(196, 82%, 18%, 1) 100%);
+    
+    background: -moz-linear-gradient(270deg, hsla(86, 8%, 17%, 1) 0%, hsla(0, 0%, 0%, 1) 50%, hsla(196, 82%, 18%, 1) 100%);
+    
+    background: -webkit-linear-gradient(270deg, hsla(86, 8%, 17%, 1) 0%, hsla(0, 0%, 0%, 1) 50%, hsla(196, 82%, 18%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2C2F28", endColorstr="#000000", GradientType=1 );  height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  #abttid{
+    padding: 2vw;
+  }
+  #abttid h1{
+    text-align: center;
+    /* background: #000; */
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin-top:14vw;
+  }
+  #abttid p{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 2vw;
+    color: gold;
+    margin-top: 8px;
+    border-radius: 8px;
+    transition: 0.4s;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #abttid p:hover{
+    transform: scale(1.02);
+    box-shadow: 4px 4px 2px 2px gold;
+  }
+@keyframes ani1{
+    0%{
+        width:0vw;
+        display: none;
+    /* background-color: black; */
+    border-right: 1px solid white;        
+    }
+    50% {border-top: solid;
+    border-right: solid;
+    width:20vw;
+    display: none;        
+
+        /* background-color:pink; */
+    }
+    100%{
+        width:30vw;
+        display: none;
+        /* background-color: #a80707; */
+    }
+}
+@keyframes border-animation {
+   
+    0% {
+        border-width: 0;
+         /* Start with no border */
+      }
+      100% {
+        border-width: 5px; /* Reach a border width of 5px at 100% */
+      }
+  }
+.edcard{
+    width: 35vw;
+    background-color: rgba(50, 54, 53, 0.151);
+    padding: 2vw;
+    height: 30vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    min-width: 350px;
+    border-radius: 7% 20% 44% 51% / 100% 56% 7% 69%;
+   border: 2px solid black; /* Initial border (transparent) */
+  position: relative;
+}
+.edcont{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid ; */
+    border-radius: 7% 20% 44% 5% / 100% 56% 7% 69%;
+    width: auto;
+}
+.edcardhead{
+    text-align: center;
+    /* background-color: rgb(18, 19, 19); */
+    border-radius: 7% 20% 1% 5% / 100% 56% 70% 9%;
+    transition: 1s;
+    background: linear-gradient(360deg, rgb(16, 19, 18) 0%, rgb(21, 20, 20) 50%, hsla(216, 56%, 16%, 1) 100%);
+
+    /* color: antiquewhite; */
+    /* font-size: 30px; */
+    /* font-weight: 100; */
+}
+.edcardhead:hover{
+    transform: scale(1.1);
+    transform: rotateZ(8deg);
+}
+.edcardhead h1{
+    font-size: 25px;
+    color: rgba(240, 240, 227, 0.771);
+}
+.edconhead h2{
+    font-size: 1.1vw;
+    border: 1px solid black;
+    /* border-color: aliceblue; */
+    border-radius: 7% 20% 44% 5% / 100% 56% 7% 69%;
+    padding: 0.5vw;
+    color: rgb(245, 239, 239);
+    transition: 0.4s;
+    /* transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); */
+    background-color: rgba(0, 0, 0, 0.397);
+    /* font-size:10px; */
+    margin-left: 3vw;
+}
+.edconhead h2:hover, .edcardhead h2:focus{
+    transform: scale(1.1);
+    background: linear-gradient(360deg, rgb(16, 19, 18) 0%, rgb(21, 20, 20) 50%, hsla(216, 56%, 16%, 1) 100%);
+    
+
+    
+}
+
+@media (max-width:768px){
+    #abttid h1{
+        font-size: 40px;
+    }
+    .edcard{
+    padding: 15px;
+
+    }
+    .edcont{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 25px;
+    }
+    .edconhead h2{
+        font-size: 18px;
+        /* border: 1px solid ; */
+        border-radius: 7% 20% 44% 5% / 100% 56% 7% 69%;
+        padding: 0.8vw;
+        
+        /* font-size:10px; */
+    }
+    /* .edconhead h2:hover{
+        background-color: #fff;
+        text-shadow: 0px 0px 5px black;
+    } */
+    .aboutcon{
+        width: 100vw;
+        height: 60vh;
+    }
+    .rightA{
+        height: 60vh;
+    }
+   
+}
+

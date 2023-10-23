@@ -1,0 +1,25 @@
+{
+    "experiences": [
+        {
+            "title": "Python Developer",
+            "subtitle": "Hackveda Limited",
+            "workType": "Internship",
+            "workDescription": [
+                "Email Automation, Web Crawler",
+                "Data analysis of stock market data, generation of candlestick patterns. "               
+            ],
+            "dateText": "06/2023 – 09/2023",
+            "link":"https://github.com/rishuraj2401/Hack_v"
+        },
+        {
+            "title": "Front-end Developer",
+            "subtitle": "Science & Technical Council RGIPT",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Created official Website of S&T RGIPT"
+            ],
+            "dateText": "10/2021 – 05/2022",
+            "link":"https://rishuraj2401.github.io/science/"
+        }
+    ]
+}

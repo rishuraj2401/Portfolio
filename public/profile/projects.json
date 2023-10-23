@@ -1,0 +1,112 @@
+{
+    "projects" : [ 
+       
+        {
+            "image" : "images/projects/portfolio-poster.png",
+            "title": "RGIPT College Gatepass",
+            "bodyText": "- This web application is designed to solve one of the daily life problems faced by the students of RGIPT campus, the time-consuming process of filling out gate-pass forms by hand and verifying with the two levels of the department hostel office and the gate Guard. By digitising the process, I aimed to reduce the physical labour and handling of handwritten data with the use of CRUD operations.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://mygatepass.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "ReactJs, MongoDB, Node.js, Express.js"
+            ]
+        },
+        {
+            "image" : "images/projects/caaring-poster.png",
+            "title": "CodeMeet web application",
+            "bodyText": "- This project features a video calling platform with a real-time and synchronised code editor, designed for technical interviews. The platform uses Socket.io, WebRTC, CodeMirror, and React.js to enable simultaneous editing and debugging of code by both the interviewer and interviewee in a common editor.\n -",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/Caaring"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://codemeet1.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "Socket.io, WebRTC, CodeMirror, React.js"
+            ]
+        },
+        {
+            "image" : "images/projects/quiet-hours-poster.jpg",
+            "title": "ChatBot",
+            "bodyText": "- Developed AI-powered chatbot integrated with Spring Boot microservice for interactive user interface using React.js, with login and registration page.\n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rishuraj2401/Chatbot_Springboot"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://codemeet1.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "MySql, Java, SpringBoot, OpenAI API, Postman, React.js"
+            ]
+        },
+       
+        {
+            "title": "Sorting Visualizer",
+            "bodyText": "- A web application using React and DSA to visualise sorting algorithms in real-time with interactive controls for array size and speed\n.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://rishuraj2401.github.io/SortingVisualizer/"
+                }
+            ],
+            "tags" : [
+                "ReactJS, JavaScript, HTML, CSS, DSA"
+            ]
+        },
+        {
+            "title": "Human activity recognition",
+            "bodyText": "- This project aims to build a human activity recognition system using deep learning techniques such as LSTM and CNN to accurately identify and classify various human activities based on uploaded video as input",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rishuraj2401/HumanActivity/tree/master/"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://codemeet1.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "Python, Machine Learning, LSTM, numpy, CNN"
+            ]
+        },
+        {
+            "title": "Image Cartoonizer",
+            "bodyText": "-Developed a machine learning-based cartoon creation project using K-means clustering for automatic image segmentation and stylization, producing artistic and appealing cartoon versions of photo",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rishuraj2401/CartoonfyUsingMachineLearning"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://codemeet1.vercel.app/"
+                }
+            ],
+            "tags" : [
+                "Python, Machine Learning, K-mean clustering, numpy, Matplotlib"
+            ]
+        }
+       
+    ]
+}

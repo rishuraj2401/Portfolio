@@ -1,0 +1,25 @@
+{
+    "education":[
+        {
+            "title": "Jun 2020 - Jun 2024",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"Rajiv Gandhi Institute of Petroleum Technology",
+            "cardDetailedText": "SPI -8.2",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Apr 2017 - May 2019",
+            "cardTitle": "12th",
+            "cardSubtitle":"Gaya College, Gaya",
+            "cardDetailedText": "Marks - 88.2%"
+        },
+        {
+            "title": "Apr 2017",
+            "cardTitle": "10th",
+            "cardSubtitle":"Gurukul School, Sherghati",
+            "cardDetailedText": "Marks - 10.0 CGPA"
+        }
+    ]
+}
