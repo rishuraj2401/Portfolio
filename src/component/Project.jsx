@@ -88,11 +88,6 @@ import Loader from 'react-loaders';
 import './styles/Project.css'
 import Navb from './Navb';
 
-// import { containerproject5, Col, Row } from 'react-bootstrap';
-// import Fade from 'react-reveal';
-// import FallbackSpinner from './FallbackSpinner';
-// import Navb from './Navb';
-
 const Project= () => {
     const [data, setData] = useState(null);
     const [index, setIndex] = useState(0);

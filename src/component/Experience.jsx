@@ -11,11 +11,6 @@ import Loader from 'react-loaders';
 import './styles/exp.scss'
 import Navb from './Navb';
 
-// import { container5, Col, Row } from 'react-bootstrap';
-// import Fade from 'react-reveal';
-// import FallbackSpinner from './FallbackSpinner';
-// import Navb from './Navb';
-
 const Experience= () => {
     const [data, setData] = useState(null);
     const [index, setIndex] = useState(0);
