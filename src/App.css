@@ -150,8 +150,13 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2B4584", en
     height:fit-content;
   }
   .typewriter h1{
-    font-size: 36px;
+    font-size: 34px;
     padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
   }
   .blobbg{
     height: 300px;
